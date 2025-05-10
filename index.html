@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>My Dashboard</title>
+</head>
+<body>
+  <main class="dashboard"></main>
+  <button id="addCardBtn">+ Add Card</button>
+  <div id="cardModal" class="modal hidden">
+    <form id="cardForm">
+      <input id="cardTitle" placeholder="Card Title" required />
+      <input id="cardUrl" placeholder="Card URL" type="url" required />
+      <button type="submit">Save Card</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
